@@ -1,47 +1,73 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 # jogo-da-velha
+
+![javascript](https://img.shields.io/badge/JavaScript-323330?logo=javascript&logoColor=F7DF1E) ![typescript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white) ![webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?logo=webpack&logoColor=black) ![react](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?logo=eslint&logoColor=white)
+
+
+## Descrição
+
+Jogo tutorial jogo da velha
+
+## Requisitos
+---
+Para desenvolvimento, você deve precisar do Node.js instalado em sua máquina.
+
+
+### Node.js
+
+[Node](https://nodejs.org/en/download/) é realmente fácil de instalar em qualquer sistema operacional e inclui o NPM. O projeto requer node na versão >= 14.0.0 e < 15.0.0 e npm >= 6.0.0 e <9.0.0.
+
+
+1. Instalação no [Linux](https://nodejs.dev/download/package-manager/)
+2. Instalação no [Macos](https://nodejs.dev/download/package-manager/#macos)
+3. Instalação no [Windows](https://nodejs.dev/download/package-manager/#windows-1)
+
+Após a instalação verifique se as versões correspondem às especificadas para o projeto.
+
+```shell
+node --version
+```
+
+```shell
+npm --version
+```
+
+
+## Instalação
+---
+
+Para instalação dos pacotes do projeto deve ser utilizado o gerenciador `npm`.
+
+```shell
+git clone https://github.com/Aquariux08/jogo-da-velha.git
+cd jogo-da-velha
+npm install
+```
+
+
+### Start & Watch
+
+Por padrão utiliza-se porta [8080](http://localhost:8080).
+
+```shell
+npm run start
+```
+
+### Builds
+
+```shell
+npm run build
+```
+
+
+## Linguagens e Ferramentas
+---
+### Javascript tools
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+
+
+### Style code
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+
